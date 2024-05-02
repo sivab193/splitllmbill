@@ -1,0 +1,33 @@
+#root {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+body {
+  background: linear-gradient(to right, #370342 0%, #290670 100%);
+}
+
+.primary {
+  background-color: #896b99;
+}
+
+button {
+  width: -webkit-fill-available;
+  margin-bottom: 20px;
+  /* background-color: #f9f9f9 !important; */
+  /* color: black; */
+}
+
+.custom-datepicker {
+  width: -webkit-fill-available;
+  border: 1px solid #ced4da;
+  background: inherit;
+  border-radius: 4px;
+  padding: 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-clip: padding-box;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
